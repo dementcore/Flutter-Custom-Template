@@ -23,7 +23,7 @@ class HomeView extends StatelessWidget {
         child: const Icon(Icons.add),
         onPressed: () {
           uiService.incrementCounter();
-          uiService.setAppBarTitle('Pepito' + uiService.counter);
+          uiService.setAppBarTitle('[Title] ' + uiService.counter);
         },
       ),
     );
